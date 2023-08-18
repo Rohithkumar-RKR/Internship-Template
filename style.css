@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color:rgb(241, 236, 236);
+}
+
+.header{
+   display:flex;
+   justify-content: space-between;
+   padding:15px 34px;
+   background-color: black;
+   color: white;
+   position:fixed;
+   width:100%
+}
+.menu{
+    border:none;
+    background-color:black;
+    color:white;
+    /* visibility: hidden; */
+   
+}
+
+.hamburger{
+    font-size :1.2rem;
+    font-weight: 500;
+}
+
+.menu-title{
+    font-size :1.2rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    
+}
+
+.logo{
+    font-size :1.2rem;
+    font-weight: 500;
+}
+
+.sidebar{
+   color:black;
+   background-color:beige;
+   height: 100%;
+   width:18.7rem;
+   position: fixed;
+   margin-top: 3.3rem;
+   /* padding:1.5rem; */
+}
+
+.main-sidebar{
+    display: flex;
+    justify-content:space-around;
+    padding: 2rem 0;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .icons{
+    display:flex;
+    justify-content: space-between;
+    padding-top:1rem
+  }
+
+  .sub-sidebar h4{
+    padding:0.4rem 0.8rem;
+  }
+
+  .sub-sidebar{
+    padding:1.5rem 0;
+  }
+  
+  .sub-sidebar p{
+    padding: 0.3rem 0.8rem;
+    font-weight: 500;
+  }
+ 
+  .sub-sidebar p:hover,.sub-sidebar p:active{
+     background-color: #ddd;
+  }
+ 
+  
+  .sub-sidebar p a{
+    text-decoration: none;
+    color:black
+  }
+  
+  .link-bg{
+    background-color:rgb(71, 144, 226);
+  }
+ 
+  #link-text{
+    color:white;
+  }
+  .main{
+   position:absolute;
+   z-index: -1;
+   margin-top: 4rem;
+   /* margin-left:19.5rem */
+  }
+
+  .dash-heading{
+    padding-right: 0.3rem;
+  }
+
+  .dash-main{
+
+    display:flex;
+   
+  }
+  .dash-submain{
+    background-color: red;
+    color:white;
+    padding:1.5rem 0.8rem;
+    width:16vw;
+    margin:0.8rem;
+    
+  }
+  .dash-submain2{
+    background-color:rgb(71, 144, 226);
+    color:white;
+    padding:1.5rem 0.8rem;
+    width:16vw;
+    margin:0.8rem;
+    
+  }
+  .dash-submain3{
+    background-color:lightseagreen;
+    color:white;
+    padding:1.5rem 0.8rem;
+    width:16vw;
+    margin:0.8rem;
+    
+  }
+  .dash-submain4{
+    background-color:rgb(235, 202, 15);
+    color:white;
+    padding:1.5rem 0.8rem;
+    width:16vw;
+    margin:0.8rem;
+    
+  }
+
+  .dash-submain1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.4rem;
+    /* padding:1.4rem 0.5rem */
+  }
+
+  .dash-icon{
+    font-size:2rem
+  }
+
+  #regions-feeds{
+    display:flex
+  }
+  .regions{
+    width:45%;
+    margin:0.8rem;
+  }
+  
+  .region-heading{
+   margin-bottom:0.8rem;
+  }
+
+  .feeds{
+    width:100%;
+     margin:0.8rem;
+  }
+  /* .feed-user{
+   align-self: flex-end;
+  } */
+
+  .sub-feed{
+    padding:0.4rem;
+    display:flex;
+    justify-content: start;
+    /* justify-content:space-between; */
+    text-align: left;
+  }
+   .sub-feed i{
+    width:11%
+   }
+   .feed-second{
+     width: 65%;
+   }
+   .feed-bg{
+    background-color: white;
+   }
+   .General-stats{
+    padding: 0.8rem 0.4rem;
+   }
+   
+.stats-heading{
+    margin: 0.8rem ;
+}
+
+.stats {
+margin:0.6rem;
+}
+
+.stats p{
+    padding:0.2rem
+}
+.bg-full{
+   
+    background-color: darkgrey;
+    text-align: center;
+}
+.bg-stats{
+    width:25%;
+    background-color: red;
+    padding:0.3rem
+    
+}
+.bg-stats1{
+    width:50%;
+    background-color:green;
+    padding:0.3rem
+    
+}
+.bg-stats2{
+    width:75%;
+    background-color:rgb(223, 187, 29);
+    padding:0.3rem
+}
+#countries{
+    margin: 0.8rem;
+}
+#countries h4{
+    padding:0.8rem 0rem;
+}
+.table-countries{
+    width:100%;
+    border-collapse: collapse;
+}
+.table-countries tr{
+    border: 1px solid #ddd;
+}
+.table-countries tr:hover{
+   background-color: rgb(156, 154, 154);
+}
+.table-countries td{
+    padding: 0.5rem;
+}
+
+.table-bg{
+    background-color: white;;
+}
+.country-btn {
+    margin:8px 0px;
+    padding: 10px;
+    font-size:15px
+}
+.country-btn a{
+    text-decoration: none;
+    color:black;
+}
+.space-icon{
+    padding: 0px 8px;
+}
+
+#comment{
+    margin: 0.8rem; 
+}
+
+#comment h4{
+     margin: 0.8rem 0rem;
+}
+
+.main-comment{
+    display: flex;
+    justify-content: center;
+}
+.img-comment{
+    width:50%;
+    padding: 1rem;
+}
+
+.avatar1 {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .comment-heading{
+    display: inline-block;
+    font-size:1rem;
+  }
+  .comment-para{
+    display: inline-block;
+    color:darkgrey
+  }
+  .comment-text{
+    padding:1rem
+  }
+  .comments{
+    padding:1rem 0rem;
+  }
+  
+  #graph{
+    margin:0.8rem;
+    padding:2rem 3rem;
+    background-color: dimgrey;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+  
+  }
+  .graph-list{
+    list-style: none;
+    margin: 0.8rem 0rem;
+  }
+  .graph-list li{
+    padding:0.3rem 0rem;
+  }
+
+  .graph1 h4,.graph2 h4,.graph3 h4{
+    padding-top:0.6rem;
+    padding-bottom: 0.2rem;
+  }
+  .graph1 hr{
+    height: 3%;
+    background-color: green;
+  }
+  .graph2 hr{
+    height: 3%;
+    background-color: red;
+    border:none;
+  }
+  .graph3 hr{
+    height: 3%;
+    background-color:rgb(223, 187, 29);
+    border:none;
+  }
+  
+  #footer{
+    margin: 0.8rem; 
+    padding: 0.8rem 0rem;
+  }
+
+  #footer h3{
+    padding-bottom: 0.4rem;
+  }
+  
+
+
+  /* media Queries */
+
+.sidebar{
+  display:none;
+}
+
+
+@media only screen and (max-width: 600px)  {
+ .main{
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+ }
+  .dash-main{
+    display: block;
+    margin-bottom:1.5rem;
+  }
+  .dash-submain,.dash-submain2,.dash-submain3,.dash-submain4{
+    width:95%;
+  }
+  #regions-feeds{
+    display:block
+  }
+  .regions{
+    width:95%;
+  }
+  .region-heading{
+    margin: 1rem 0rem;
+  }
+  .feeds{
+    width:95%;
+  }
+  .main-comment{
+    display:block;
+  }
+  #graph{
+    display:block;
+    margin:0;
+  }
+  .graph1 hr{
+   border-top: 4px solid green;
+  }
+  .graph2 hr{
+    border-top: 4px solid red;
+  }
+  .graph3 hr{
+    border-top: 4px solid rgb(223, 187, 2);
+  }
+  .graph-list{
+    margin:0.4rem 0rem;
+  }
+}
+
+@media only screen and (min-width:601px) and (max-width:992px){
+  .dash-submain,.dash-submain2,.dash-submain3,.dash-submain4{
+    width:95%;
+  }
+}
+
+@media only screen and (min-width:755px) and (max-width:992px){
+  .img-comment{
+    width:32%;
+    padding: 1rem;
+}
+}
+
+@media only screen and (min-width: 992px)  {
+  .sidebar{
+    display: block;
+  }
+  .main-media{
+     margin-left:19.5rem
+  }
+  .dash-submain,.dash-submain2,.dash-submain3,.dash-submain4{
+    width:95%;
+  }
+  .menu{
+    visibility: hidden;
+  }
+}
+
+.menuu{
+  display:block;
+}
